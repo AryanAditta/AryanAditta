@@ -95,45 +95,60 @@
       </div>
 
       <article class="research-card">
-        <div class="research-image"><img src="assets/research/pa-placeholder.svg" alt="Technical illustration for the 28 GHz SiGe power amplifier research" loading="lazy" decoding="async" /></div>
+        <div class="research-image">
+          <a class="research-figure-link" href="assets/research/pa-research-overview.png" target="_blank" rel="noopener" aria-label="Open full 28 GHz SiGe power amplifier research overview">
+            <img src="assets/research/pa-research-overview.png" alt="High-level overview of the 28 GHz SiGe power amplifier research workflow" loading="lazy" decoding="async" />
+            <span class="research-figure-note">Open overview ↗</span>
+          </a>
+        </div>
         <div class="research-copy">
           <div class="meta-row"><span>Undergraduate Thesis · KUET · 2026</span><span class="status">Continuing to layout/GDSII</span></div>
           <h3>Open-Source RFIC Design & Verification of a 28&nbsp;GHz Two-Stage Class-A SiGe Power Amplifier</h3>
-          <p>Designed and simulated a two-stage 28&nbsp;GHz Class-A SiGe power amplifier using the IHP SG13G2 130-nm SiGe BiCMOS Open PDK and an open-source RFIC workflow based on Qucs-S, ngspice/Xyce, KLayout, and EM-aware modeling.</p>
+          <p>Developed an open-source-compatible 28&nbsp;GHz SiGe RFIC workflow spanning circuit design, process-aware realization, data-assisted design exploration, and independent simulation-based verification.</p>
           <ul>
-            <li>Developed a progressive ideal-passive → PDK-aware → EM-aware realization workflow.</li>
-            <li>Final process-aware small-signal configuration achieved approximately <strong>17.4 dB gain at 28 GHz</strong>, with S11/S22 around −13 dB and K = 12.</li>
-            <li>Explored ML-assisted design-space screening and optimization; a thesis-derived manuscript has been submitted to ICCIT 2026.</li>
+            <li>Explored the transition from conceptual RF design toward more physically representative PDK- and EM-aware implementation.</li>
+            <li>Used machine learning as a supporting design-assistance layer rather than as a substitute for circuit simulation.</li>
+            <li>A thesis-derived manuscript focusing on the physical-realization workflow has been submitted to ICCIT 2026.</li>
           </ul>
           <div class="tag-row"><span>IHP SG13G2</span><span>Qucs-S</span><span>ngspice/Xyce</span><span>KLayout</span><span>RFIC</span></div>
         </div>
       </article>
 
       <article class="research-card reverse">
-        <div class="research-image"><img src="assets/research/gnn-placeholder.svg" alt="Technical illustration for the GNN-SABLE VLSI floorplanning research" loading="lazy" decoding="async" /></div>
+        <div class="research-image">
+          <a class="research-figure-link" href="assets/research/gnn-sable-overview.png" target="_blank" rel="noopener" aria-label="Open full learning-guided VLSI floorplanning research overview">
+            <img src="assets/research/gnn-sable-overview.png" alt="High-level overview of learning-guided VLSI floorplanning research" loading="lazy" decoding="async" />
+            <span class="research-figure-note">Open overview ↗</span>
+          </a>
+        </div>
         <div class="research-copy">
           <div class="meta-row"><span>Independent Research · 2026–Present</span><span class="status">Ongoing</span></div>
           <h3>GNN-SABLE: GNN-Guided VLSI Floorplanning with Constraint-Aware Refinement</h3>
-          <p>Developing a learning-guided floorplanning framework that combines GNN-based placement guidance with B*-tree simulated annealing, legalization, and exact-evaluated refinement.</p>
+          <p>Investigating how learning-derived structural guidance can support constraint-rich VLSI floorplanning while keeping legality and physical-design requirements explicit.</p>
           <ul>
-            <li>Investigates trade-offs among wirelength, compactness, legality, boundary, grouping, and related structural constraints.</li>
-            <li>Builds a rigorous experimental workflow with controlled baselines, ablations, leakage-aware data handling, legality checks, and stage-level evaluation.</li>
-            <li>Uses Intel Labs FloorSet/FloorSet-Lite data as the basis for reproducible evaluation.</li>
+            <li>Studies the interaction between learned guidance and classical physical-design optimization.</li>
+            <li>Emphasizes legal, compact, and constraint-aware layouts under controlled evaluation.</li>
+            <li>Uses public floorplanning benchmarks for reproducible experimentation without exposing the unpublished implementation details.</li>
           </ul>
           <div class="tag-row"><span>VLSI Physical Design</span><span>GNN</span><span>Floorplanning</span><span>Simulated Annealing</span><span>Python</span></div>
         </div>
       </article>
 
       <article class="research-card">
-        <div class="research-image"><img src="assets/research/rtl-placeholder.svg" alt="Technical illustration for the RTL-to-QoR prediction research" loading="lazy" decoding="async" /></div>
+        <div class="research-image">
+          <a class="research-figure-link" href="assets/research/rtl-to-qor-overview.png" target="_blank" rel="noopener" aria-label="Open full RTL-to-QoR research overview">
+            <img src="assets/research/rtl-to-qor-overview.png" alt="High-level overview of RTL-to-QoR prediction research" loading="lazy" decoding="async" />
+            <span class="research-figure-note">Open overview ↗</span>
+          </a>
+        </div>
         <div class="research-copy">
           <div class="meta-row"><span>Research Collaboration · Ongoing</span><span class="status">Research collaboration</span></div>
           <h3>Leakage-Aware RTL-to-QoR Prediction for Early Area & Timing Estimation</h3>
-          <p>Working with Zakia Sultana, Ph.D. Candidate in the Electronic Design Automation Group at the MSCAD Laboratory, University of Arkansas, on pre-mapping QoR prediction directly from RTL.</p>
+          <p>Working with Zakia Sultana, Ph.D. Candidate in the Electronic Design Automation Group at the MSCAD Laboratory, University of Arkansas, on early implementation-quality estimation directly from RTL.</p>
           <ul>
-            <li>Developing area and timing prediction using a curated RTL dataset with source provenance and duplicate/near-duplicate control.</li>
-            <li>Working on leakage-aware grouped evaluation, RTL structural feature engineering, and reproducible model-development pipelines.</li>
-            <li>Investigating size-aware prediction, explainability, extrapolation analysis, and out-of-distribution awareness.</li>
+            <li>Studies whether structural information available before mapping can provide useful early area and timing insight.</li>
+            <li>Places strong emphasis on source provenance, leakage-aware evaluation, and reproducible modeling.</li>
+            <li>Explores explainability and reliability awareness so predictions can be interpreted with appropriate engineering caution.</li>
           </ul>
           <div class="tag-row"><span>RTL</span><span>Yosys</span><span>OpenSTA</span><span>ML for EDA</span><span>Explainability</span></div>
         </div>
