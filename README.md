@@ -3,56 +3,65 @@
 **Electronics & Communication Engineering Graduate · RF/mmWave IC Design · VLSI/EDA · Design Automation**  
 Khulna University of Engineering & Technology (KUET)
 
-My research interests span two complementary hardware-design directions: **RF/mmWave integrated-circuit design** and **VLSI/EDA**. Across both, I am interested in how circuit structure, physical realization and computational methods can be combined to improve design quality, efficiency and reliability.
+My research spans two complementary hardware-design directions: **RF/mmWave integrated-circuit design** and **VLSI/EDA**. Across both, I am interested in combining circuit structure, physical realization and computational methods while keeping engineering constraints and verification explicit.
 
-[Google Scholar](https://scholar.google.com/citations?user=Id4ByyUAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/arian-rahman-aditta/)
+[RFIC Academic Website](https://aryanaditta.github.io/rfic-academic/) · [EDA Academic Website](https://aryanaditta.github.io/eda-academic/) · [Google Scholar](https://scholar.google.com/citations?user=Id4ByyUAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/arian-rahman-aditta/)
 
 ## Research Focus
 
 ### RF/mmWave IC Design
-- Analog/RF IC design and SiGe BiCMOS circuits
-- mmWave power amplifiers, impedance matching and stability
-- Process-aware and EM-aware physical realization
-- Open-source RFIC design workflows and RFIC design automation
-- Machine-learning-assisted design-space exploration
+- Analog/RF IC design and SiGe BiCMOS front-end circuits
+- mmWave power amplifiers and low-noise amplifiers
+- Input/output matching, S-parameters, stability and noise-figure analysis
+- Process-aware, EM-aware and full-custom physical realization
+- Open-source RFIC workflows and RFIC design automation
+- ML-assisted design-space exploration with circuit simulation retained as the verification authority
 
 ### VLSI / EDA
 - Physical design automation and constraint-rich floorplanning
 - Learning-guided combinatorial optimization
 - Graph neural networks for EDA
-- RTL-to-QoR prediction for early area and timing estimation
-- Leakage-aware, source-aware and reproducible model evaluation
+- RTL area and timing prediction under open-source synthesis/STA flows
+- Source-aware grouping, prospective confirmation and reproducible model evaluation
 
 ## Selected Research
 
-- **Open-Source 28 GHz SiGe Power Amplifier** — designed and simulated a two-stage Class-A PA using the IHP SG13G2 Open PDK with progressive ideal-passive, PDK-aware and EM-aware realization. Machine learning was used as a supporting design-exploration layer. A first-author thesis-derived manuscript was submitted to ICCIT 2026.
-- **GNN-SABLE** — learning-guided VLSI floorplanning that combines graph-based guidance with B*-tree annealing, structured legalization and explicit feasibility handling. A first-author manuscript was submitted to ICEEICT 2027.
-- **Leakage-Aware RTL-to-QoR Prediction** — ongoing collaborative research on early mapped-area and pre-layout timing prediction from RTL with source provenance, duplicate control, grouped evaluation, structural modeling and explainability.
-- **LMatchNet-V** — coauthored physics-seeded RF L-section matching work that combines analytical matching structure with vendor-aware component selection and safe-library search. Published at IEEE MARSCON 2026.
-- **SenseStick** — first-author edge-AI assistive system combining navigation, sensing and biomedical monitoring. Published at IEEE BECITHCON 2026.
+- **Open-Source 28 GHz SiGe Power Amplifier** — designed and simulated a two-stage Class-A PA using the IHP SG13G2 Open PDK with progressive ideal-passive, PDK-aware and EM-aware realization. The thesis-derived work is continuing toward full-custom layout, physical verification and GDSII-oriented realization. A first-author manuscript was submitted to ICCIT 2026.
+
+- **27 GHz SiGe RF Front-End Design Space** — ongoing simulation-based design-space generation across common-emitter and cascode PA/LNA families in IHP SG13G2. The workflow varies bias conditions, device sizing, RF chokes and matching networks, then validates configurations through DC, small-signal, stability, noise and large-signal analysis before Python-based post-processing. [Repository](https://github.com/AryanAditta/27GHz-RF-Front-End-Design-Space)
+
+- **GNN-SABLE** — learning-guided constraint-rich VLSI floorplanning combining graph-based guidance with B*-tree simulated annealing, structured legalization and exact feasibility handling. A first-author manuscript was submitted to ICEEICT 2027.
+
+- **Source-Aware Evaluation of RTL Area and Timing Prediction with Prospective Confirmation** — ongoing research on mapped-area and standardized pre-layout timing prediction under a Yosys/ABC/OpenSTA Nangate45 flow, using source-connected grouping and model-specific prospective prediction freezes. The manuscript is in preparation. [Repository](https://github.com/AryanAditta/rtl-qor-source-aware-evaluation)
+
+- **LMatchNet-V** — coauthored physics-seeded RF L-section matching work combining analytical matching structure, learned residual guidance and vendor-aware safe-library search. Published at IEEE MARSCON 2026.
+
+- **SenseStick** — first-author edge-AI assistive system integrating navigation, sensing and biomedical monitoring. Published at IEEE BECITHCON 2026.
+
+- **Enhancer Benchmark Audit** — first-author broader ML-evaluation study on benchmark overlap, grouped evaluation, MPRA modeling and external assay transfer. Submitted to *BMC Bioinformatics*. [Repository](https://github.com/AryanAditta/enhancer-benchmark-audit)
 
 ## Selected Repositories
 
+- [27 GHz RF Front-End Design Space](https://github.com/AryanAditta/27GHz-RF-Front-End-Design-Space) — SiGe PA/LNA design-space generation in IHP SG13G2 using Qucs-S, ngspice, Xyce and Python.
+- [Source-Aware RTL Area & Timing Prediction](https://github.com/AryanAditta/rtl-qor-source-aware-evaluation) — reproducibility package for source-aware RTL-to-QoR evaluation and prospective confirmation.
 - [Dual-Band Microstrip Patch Antenna](https://github.com/AryanAditta/Dual-Band-Patch-Antenna) — CST-based dual-band antenna design and full-wave EM analysis near 10 GHz and 21 GHz.
 - [SenseStick Navigation Aid](https://github.com/AryanAditta/SenseStick-Navigation-Aid) — embedded edge-AI navigation, sensing and safety system.
 - [FIR Filter Design](https://github.com/AryanAditta/FIR-Filter-Design) — MATLAB implementation and analysis of FIR filters using multiple windowing techniques.
-- [8086 Microprocessor Calculator](https://github.com/AryanAditta/Designing-a-calculator-using-8086-microprocessor) — assembly-language calculator implemented for the 8086 architecture.
 - [DC Variable Voltage Source](https://github.com/AryanAditta/DC-Variable-Voltage-Source) — circuit-design and simulation project for an adjustable DC supply.
-- [Movie Recommendation App](https://github.com/AryanAditta/movie-recommendation-app) — recommendation-system experiments with FastAPI and Streamlit interfaces.
 
 ## Technical Toolkit
 
 **RFIC / Circuit / EM**  
-IHP SG13G2 · Qucs-S · ngspice · Xyce · KLayout · openEMS · CST Studio Suite · LTspice · S-parameters · impedance matching · stability analysis
+IHP SG13G2 · Qucs-S · ngspice · Xyce · KLayout · openEMS · CST Studio Suite · LTspice · S-parameters · impedance matching · stability analysis · noise analysis
 
 **VLSI / EDA**  
-Verilog · Yosys · OpenSTA · physical-design optimization · B*-tree methods · simulated annealing · legality and constraint handling
+Verilog · Yosys · ABC · OpenSTA · Nangate45 · physical-design optimization · B*-tree methods · simulated annealing · legality and constraint handling
 
 **Machine Learning / Scientific Computing**  
 Python · PyTorch · scikit-learn · XGBoost · NumPy · Pandas · MATLAB · graph neural networks · tree-based models
 
 **Research Workflow**  
-Git · LaTeX · grouped cross-validation · provenance tracking · leakage-aware evaluation · reproducible experimentation
+Git · LaTeX · grouped cross-validation · provenance tracking · source-aware evaluation · prospective prediction freezes · reproducible experimentation
 
 ## Academic Snapshot
 
@@ -64,4 +73,4 @@ Git · LaTeX · grouped cross-validation · provenance tracking · leakage-aware
 
 ## Research Direction
 
-I am particularly interested in research that connects **circuit and physical-design understanding with design automation**, including RF/mmWave IC realization, analog/RF design, physical design, early design-space prediction and learning-assisted optimization.
+I am particularly interested in research connecting **circuit and physical-design understanding with design automation**, including RF/mmWave IC realization, analog/RF design, physical design, early design-space prediction and learning-assisted optimization.
