@@ -5,7 +5,7 @@ Khulna University of Engineering & Technology (KUET)
 
 My research spans two complementary hardware-design directions: **RF/mmWave integrated-circuit design** and **VLSI/EDA**. Across both, I am interested in combining circuit structure, physical realization and computational methods while keeping engineering constraints and verification explicit.
 
-[RFIC Academic Website](https://aryanaditta.github.io/rfic-academic/) · [EDA Academic Website](https://aryanaditta.github.io/eda-academic/) · [Google Scholar](https://scholar.google.com/citations?user=Id4ByyUAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/arian-rahman-aditta/)
+[Google Scholar](https://scholar.google.com/citations?user=Id4ByyUAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/arian-rahman-aditta/)
 
 ## Research Focus
 
