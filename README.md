@@ -4,7 +4,7 @@
 Khulna University of Engineering & Technology (KUET) · Dhaka, Bangladesh
 
 [Google Scholar](https://scholar.google.com/citations?user=Id4ByyUAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/arian-rahman-aditta/)  
-[RFIC CV](https://aryanaditta.github.io/rfic-academic/Arian_Rahman_Aditta_RFIC_CV.pdf) · [EDA CV](https://aryanaditta.github.io/eda-academic/Arian_Rahman_Aditta_EDA_CV.pdf)
+
 
 I am an ECE graduate working across two complementary hardware-design directions: **RF/mmWave integrated-circuit design** and **VLSI/EDA**. My research focuses on physically meaningful design, verification and design automation, with machine learning used where it adds measurable value rather than replacing circuit, geometric or EDA verification.
 
