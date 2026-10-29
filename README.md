@@ -3,7 +3,7 @@
 **Electronics & Communication Engineering Graduate · RF/mmWave IC Design · Analog/RF IC · VLSI/EDA · Design Automation**  
 Khulna University of Engineering & Technology (KUET) · Dhaka, Bangladesh
 
-[RF/mmWave Research Website](https://aryanaditta.github.io/rfic-academic/) · [VLSI/EDA Research Website](https://aryanaditta.github.io/eda-academic/) · [Google Scholar](https://scholar.google.com/citations?user=Id4ByyUAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/arian-rahman-aditta/)  
+[Google Scholar](https://scholar.google.com/citations?user=Id4ByyUAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/arian-rahman-aditta/)  
 [RFIC CV](https://aryanaditta.github.io/rfic-academic/Arian_Rahman_Aditta_RFIC_CV.pdf) · [EDA CV](https://aryanaditta.github.io/eda-academic/Arian_Rahman_Aditta_EDA_CV.pdf)
 
 I am an ECE graduate working across two complementary hardware-design directions: **RF/mmWave integrated-circuit design** and **VLSI/EDA**. My research focuses on physically meaningful design, verification and design automation, with machine learning used where it adds measurable value rather than replacing circuit, geometric or EDA verification.
@@ -23,7 +23,7 @@ Undergraduate thesis · First-author manuscript submitted to ICCIT 2026
 - ML-assisted candidate screening is used as a supporting design-space tool while circuit simulation and RF verification remain the primary evidence.
 - Current continuation targets **full-custom layout, physical verification and GDSII-level realization**.
 
-[RFIC research website →](https://aryanaditta.github.io/rfic-academic/)
+
 
 **27 GHz SiGe RF Front-End Design-Space Generation**  
 Mentored research with Sultan Muhammad Ikram, RF/mmWave MMIC Designer, Neural Semiconductor Limited
@@ -44,7 +44,7 @@ Independent research · First-author manuscript submitted to ICEEICT 2027
 - On **100 unseen FloorSet-Lite confirmation layouts**, GRACE produced **100/100 hard-legal outputs** and outperformed the matched-time single-worker PARSAC CA-SA baseline on all 100 layouts.
 - Controlled learned-start ablations show that the learned initialization accounts for most of the wirelength advantage, while exact repair provides legality-preserving optimization through constraint surgery, local moves and CP-SAT windows.
 
-[EDA research website →](https://aryanaditta.github.io/eda-academic/)
+
 
 **Source-Aware RTL-to-QoR Prediction for Early Area and Timing Estimation**  
 Research collaboration with Zakia Sultana, Ph.D. Candidate, MSCAD Laboratory, University of Arkansas · Manuscript in preparation
